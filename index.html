@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-overlay">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade e a preservação do meio ambiente</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="card-section">
+            <h2>O Agronegócio Moderno</h2>
+            <div class="vertical-layout">
+                <div class="media-box">
+                    <img src="https://images.unsplash.com/photo-1592982537447-7440771109d3?auto=format&fit=crop&w=700&h=450&q=80" 
+                         alt="Colheitadeira moderna trabalhando em campo de trigo de forma eficiente" 
+                         class="responsive-img">
+                </div>
+                <div class="text-box">
+                    <p>Longe dos velhos estereótipos do passado, o agronegócio moderno se consolidou como uma das indústrias mais dinâmicas, científicas e tecnológicas do planeta. Hoje, produzir alimentos, fibras e bioenergia em larga escala exige uma mentalidade totalmente voltada para a preservação ecológica e o respeito aos ciclos da natureza.</p>
+                    <p>O grande desafio do século XXI é abastecer uma população mundial que não para de crescer sem avançar desordenadamente sobre as florestas nativas. É aí que entra o pilar da <strong>intensificação sustentável</strong>: otimizar o uso de terras já abertas, gerando safras muito mais fartas no mesmo espaço, enquanto se protegem as bacias hidrográficas e a biodiversidade local.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <h2>Como a Tecnologia Ajuda o Produtor Rural?</h2>
+            <div class="vertical-layout">
+                <div class="media-box">
+                    <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?auto=format&fit=crop&w=700&h=450&q=80" 
+                         alt="Agrônomo analisando dados de crescimento e saúde da plantação em um tablet" 
+                         class="responsive-img">
+                </div>
+                <div class="text-box">
+                    <p>A tecnologia revolucionou o dia a dia no campo, transformando o agricultor tradicional em um gestor de dados de altíssima precisão. Com o auxílio de softwares inteligentes e conectividade integrada, os processos agrícolas tornaram-se cirúrgicos, o que gera uma enorme economia financeira e reduz drasticamente o impacto ambiental.</p>
+                </div>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h3>Drones e Satélites</h3>
+                    <p>Sobrevoam as plantações capturando imagens multiespectrais. Eles identificam exatamente quais plantas sofrem com pragas ou falta de nutrientes, permitindo a aplicação direcionada de insumos, evitando o desperdício.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Sensores IoT (Internet das Coisas)</h3>
+                    <p>Espalhados pelo solo, medem constantemente a umidade, temperatura e condutividade. Conectados aos sistemas de irrigação automáticos, eles só liberam água quando e onde a terra realmente precisa.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Maquinários Autónomos</h3>
+                    <p>Tratores e colheitadeiras guiados por GPS avançado realizam trajetos perfeitos com centenas de sensores a bordo. Isso otimiza o combustível e impede que o peso das máquinas compacte o solo inutilmente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-section quiz-wrapper">
+            <h2>Desafio Agro Sustentável</h2>
+            <p class="quiz-intro">Teste seus conhecimentos sobre as práticas e tecnologias que estão moldando o futuro do campo.</p>
+
+            <form id="agro-quiz">
+                <div class="quiz-block" id="block-q1">
+                    <p class="quiz-question">1. Qual é o principal objetivo da "intensificação sustentável" no agronegócio moderno?</p>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q1" value="A"> A) Expandir e desmatar novas áreas para aumentar o espaço de plantio.</label>
+                        <label><input type="radio" name="q1" value="B"> B) Produzir mais alimentos no mesmo espaço de terra, poupando os recursos naturais.</label>
+                        <label><input type="radio" name="q1" value="C"> C) Substituir completamente o uso de tecnologia por práticas rudimentares.</label>
+                    </div>
+                    <div class="quiz-feedback" id="feedback-q1"></div>
+                </div>
+
+                <div class="quiz-block" id="block-q2">
+                    <p class="quiz-question">2. Como os sensores de solo (IoT) contribuem diretamente para a preservação do meio ambiente?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q2" value="A"> A) Eles mudam as previsões de chuva da região dinamicamente.</label>
+                        <label><input type="radio" name="q2" value="B"> B) Eliminam a necessidade de monitorar pragas e insetos.</label>
+                        <label><input type="radio" name="q2" value="C"> C) Evitam o desperdício de água monitorando a umidade exata para uma irrigação inteligente.</label>
+                    </div>
+                    <div class="quiz-feedback" id="feedback-q2"></div>
+                </div>
+
+                <button type="button" class="submit-btn" onclick="avaliarQuiz()">Enviar Respostas</button>
+            </form>
+
+            <div id="score-board"></div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 - Agro Forte, Futuro Sustentável. Conectando inovação e ecologia.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
